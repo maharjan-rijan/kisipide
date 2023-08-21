@@ -1,0 +1,64 @@
+
+.text{
+    background-image: url(../images/bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    padding-top: 300px;
+    text-align: center;
+}
+.text a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 40px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(55, 255, 161);
+    border-radius: 20px;
+}
+.navbar-brand{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+a .nav-link{
+    padding: 50px;
+}
+.txt{
+    font-size: large;
+    margin-top: 5%;
+    text-align: center;
+}
+.txt img{
+    align-items: center;
+}
+.text button a{
+    margin-top: 30px;
+    color: black;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+.text button a:hover{
+    color: black;
+    background-color: rgb(0, 119, 255) ;
+}
+.collapse{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 200;
+}
+iframe {
+    margin-top: 10px;
+    margin-left: -100px;
+}
+.navbar-expand-lg .navbar-collapse {
+    background: transparent;
+    margin: 4px;
+    padding: 2px;
+    font-size: 30px;
+    display: flex!important;
+    justify-content: flex-end;
+}

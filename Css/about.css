@@ -1,0 +1,60 @@
+
+.text{
+    background-image: url(../images/bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    padding-top: 300px;
+    text-align: center;
+}
+.text a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+.navbar-brand{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+a .nav-link{
+    padding: 50px;
+}
+.txt{
+    font-size: large;
+    margin-top: 15%;
+    text-align: center;
+}
+.collapse{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 200;
+}
+.village h1{
+    text-align: justify;
+    margin: 7px;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+.village p{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    border-bottom: solid black 1px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.navbar-expand-lg .navbar-collapse {
+    margin: 4px;
+    padding: 2px;
+    font-size: 30px;
+    display: flex!important;
+    justify-content: flex-end;
+}
